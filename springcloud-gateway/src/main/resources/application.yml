@@ -1,0 +1,29 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7001/eureka,http://eureka.com:7002/eureka,http://eureka.com:7003/eureka
+  instance:
+    instance-id: zuul.gateway.com
+    prefer-ip-address: true
+
+zuul:
+  #ignored-services: springcloud-provider     #隐藏真实服务名称
+  #prefix: /zhaohq                               #统一公共前缀
+  #ignored-services: "*"                        #全部隐藏
+  routes:
+    mydept.serviceId: springcloud-provider  #映射真实服务名称
+    mydept.path: /mydept/**
+
+
+info:
+  app.name: cstn-springcloud
+  company.name: www.cstn.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

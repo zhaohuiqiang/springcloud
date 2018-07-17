@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-common" />
+        <module name="springcloud-config-client" />
+        <module name="springcloud-config-server" />
+        <module name="springcloud-consumer-01" />
+        <module name="springcloud-consumer-01 (1)" />
+        <module name="springcloud-consumer-01 (2)" />
+        <module name="springcloud-consumer-02" />
+        <module name="springcloud-consumer-03" />
+        <module name="springcloud-eureka-01" />
+        <module name="springcloud-eureka-01 (1)" />
+        <module name="springcloud-eureka-02" />
+        <module name="springcloud-eureka-03" />
+        <module name="springcloud-gateway" />
+        <module name="springcloud-provider-01" />
+        <module name="springcloud-provider-02" />
+        <module name="springcloud-provider-03" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud" target="1.8" />
+      <module name="springcloud-common" target="1.8" />
+      <module name="springcloud-config-client" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
+      <module name="springcloud-consumer-01" target="1.8" />
+      <module name="springcloud-consumer-01 (1)" target="1.8" />
+      <module name="springcloud-consumer-01 (2)" target="1.8" />
+      <module name="springcloud-consumer-02" target="1.8" />
+      <module name="springcloud-consumer-03" target="1.8" />
+      <module name="springcloud-eureka-01" target="1.8" />
+      <module name="springcloud-eureka-01 (1)" target="1.8" />
+      <module name="springcloud-eureka-02" target="1.8" />
+      <module name="springcloud-eureka-03" target="1.8" />
+      <module name="springcloud-gateway" target="1.8" />
+      <module name="springcloud-provider-01" target="1.8" />
+      <module name="springcloud-provider-02" target="1.8" />
+      <module name="springcloud-provider-03" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
